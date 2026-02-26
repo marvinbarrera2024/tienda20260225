@@ -1,0 +1,36 @@
+# --- Compilación y Salida ---
+[Bb]in/
+[Oo]bj/
+out/
+publish/
+
+# --- Visual Studio Code ---
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+
+# --- Visual Studio (por si alguien más abre el proyecto) ---
+.vs/
+*.user
+*.suo
+*.userosscache
+
+# --- Bases de Datos y Secretos ---
+*.db
+*.db-shm
+*.db-wal
+appsettings.Development.json
+UserSecrets/
+
+# --- Dependencias (NuGet y Node) ---
+node_modules/
+.npm/
+/packages/
+!**/packages/build/
+
+# --- Otros ---
+*.log
+.DS_Store
